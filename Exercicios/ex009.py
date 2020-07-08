@@ -1,0 +1,10 @@
+# Faça umprograma que leia um número inteiro qualquer e mostre na tela a sua tabuada
+nm = int(input('digite o número que vocẽ quer saber a tabada'))
+print('============')
+print(f'{nm}X1 = {nm*1}')
+print(f'{nm}X2 = {nm*2}')
+print(f'{nm}X3 = {nm*3}')
+print(f'{nm}X4 = {nm*4}')
+print(f'{nm}X5 = {nm*5}')
+print(f'{nm}X6 = {nm*6}')
+print('============')

@@ -1,0 +1,13 @@
+ # teste todas maneiras possiveis de idntificar algo digitado
+bar = input('Digite algo:')
+print('O tipo primitivo digitado pertence ao tipo primitivo ',type (bar))
+print('É numerico?' ,bar.isnumeric())
+print('É letra?' ,bar.isalpha())
+print('É alfa numerico?' ,bar.isalnum() )
+print('É Binario? ?', bar.isdecimal())
+print('Tem somente espaços?' , bar.isspace() )
+print('É minuscilo?', bar.islower())
+print('É maisculo?', bar.isupper())
+print('É um digito? ', bar.isdigit())
+print('É printavel?',bar.isprintable())
+print("😂😂😂😂😂")
