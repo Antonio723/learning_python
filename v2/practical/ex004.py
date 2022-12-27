@@ -1,0 +1,6 @@
+think = input("Digite algo: ")
+print("O que você digitou é um número: ",think.isalnum())
+print("o que você digitou é um espaço: ", think.isspace())
+print("o que você digitou são letras", think.isalpha())
+print("o que você digitou é decimal: ", think.isdecimal())
+print("o que você digitou está em uper case: ", think.isupper())
