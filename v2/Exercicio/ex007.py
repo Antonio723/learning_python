@@ -1,0 +1,6 @@
+# Desenvolva um programa que leia duas notas de um aluno, calcule e mostre sua média aritimética
+
+nota1 = float(input('Digite a primeira nota do aluno: '))
+nota2 = float(input('Digite a segunda nota do aluno: '))
+med = (nota1+nota2)/2
+print(f'A média de notasdesse aluno é de {med:.2f}')
